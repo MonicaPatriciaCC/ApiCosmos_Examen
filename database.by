@@ -8,9 +8,9 @@ load_dotenv()
 # Obtener las variables de entorno
 COSMOS_ENDPOINT = os.getenv("COSMOS_ENDPOINT")
 COSMOS_KEY = os.getenv("COSMOS_KEY")
-DATABASE_NAME = os.getenv("DATABASE_NAME")
-CONTAINER_USUARIO = os.getenv("CONTAINER_USUARIO")
-CONTAINER_PROYECTO = os.getenv("CONTAINER_PROYECTO")
+DATABASE_NAME = 'GestorProyectosDB'
+CONTAINER_USUARIO = 'Usuarios'
+CONTAINER_PROYECTO = 'Proyectos'
 
 # Inicializar el cliente de Cosmos DB
 client = CosmosClient(COSMOS_ENDPOINT, COSMOS_KEY)
