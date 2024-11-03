@@ -11,4 +11,4 @@ class Proyecto(BaseModel):
     id: str 
     nombre: str 
     desripcion:str
-    idusuario: str 
+    id_usuario: str 
